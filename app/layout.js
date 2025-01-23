@@ -48,6 +48,27 @@ export default function RootLayout({ children }) {
             content="free notes maker, AI notes taker, note-taking app, free note-taking tool, AI-powered notes, productivity tools, online notes app, organize notes, AI note-taking solution, free productivity app, smart notes app
 "
           />
+
+          <meta
+            property="og:title"
+            content="Free AI Notes Maker - Capture, Organize & Boost Productivity"
+          />
+          <meta
+            property="og:description"
+            content="Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage notes easily. Boost productivity with AI-powered features."
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://yourwebsite.com/" />
+          <meta
+            property="og:image"
+            content="https://yourwebsite.com/images/og-image.jpg"
+          />
+          <meta
+            property="og:image:alt"
+            content="Screenshot of Free AI Notes Maker web application"
+          />
+          <meta property="og:site_name" content="AI Notes Maker" />
+
           <link
             rel="canonical"
             href="https://ainotestaker.netlify.app"
