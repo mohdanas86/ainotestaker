@@ -1,0 +1,16 @@
+{
+  "name": "3A",
+  "short_name": "3A",
+  "description": "AI Notes Taker: Efficiently capture and organize your notes with 3A. Enhance productivity with smart, AI-powered note-taking solutions. Try it now!",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#EAEEFE",
+  "icons": [
+    {
+      "src": "https://ainotestaker.netlify.app/favicon.ico",
+      "sizes": "192/192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Sitemap
+Sitemap: https://ainotestaker.netlify.app/sitemap.xml
+
+
+Allow: /
+User-agent: *
+Disallow: 
+Crawl-delay: 5
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /dashboard
+Disallow: /dashboard/upgrade
+Disallow: /workspace
