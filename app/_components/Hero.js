@@ -19,9 +19,9 @@ const Hero = () => {
             <span className="border border-slate-500 rounded-md py-2 px-4 text-sm md:text-base">
               Version 1.0 is here
             </span>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold font-serif leading-tight md:leading-none">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold font-serif leading-tight md:leading-none">
               Effortless <br /> Notes with AI
-            </h2>
+            </h1>
             <p className="w-full md:w-[90%] text-sm md:text-base">
               Enhance your note-taking with AI! Simply select text from your
               PDF, click the AI Generator button, and let the AI create concise,

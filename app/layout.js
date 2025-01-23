@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "3A - AI Notes Taker",
+  title: "AI Notes Taker",
   keywords:
     "AI Notes Taker, note-taking, productivity, AI-powered solutions, 3A",
   description:
@@ -47,17 +47,25 @@ export default function RootLayout({ children }) {
             name="keywords"
             content="AI Notes Taker, note-taking, productivity, AI-powered solutions, 3A"
           />
+          <link
+            rel="canonical"
+            href="https://ainotestaker.netlify.app"
+            key="canonical"
+          />
 
           <link rel="icon" type="image/png" href="/favicon.ico" />
           <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+          {/* JSON-LD for schema.org structured data */}
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
-                "@type": "WebSite",
-                name: "3A - AI Notes Taker",
-                url: "https://ainotestaker.netlify.app",
+                "@type": "WebPage",
+                name: "AI Notes Taker",
+                description:
+                  "AI Notes Taker: Efficiently capture and organize your notes with 3A. Enhance productivity with smart, AI-powered note-taking solutions. Try it now!",
+                url: "https://ainotestaker.netlify.app/",
               }),
             }}
           />
