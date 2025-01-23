@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AI Notes Taker",
+  title: "Free AI Notes Maker - Capture, Organize & Boost Productivity",
   keywords:
-    "AI Notes Taker, note-taking, productivity, AI-powered solutions, 3A",
+    "free notes maker, AI notes taker, note-taking app, free note-taking tool, AI-powered notes, productivity tools, online notes app, organize notes, AI note-taking solution, free productivity app, smart notes app",
   description:
-    "AI Notes Taker: Efficiently capture and organize your notes with 3A. Enhance productivity with smart, AI-powered note-taking solutions. Try it now!",
+    "Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!",
   icons: {
     icon: "/favicon.ico",
   },
@@ -38,14 +38,15 @@ export default function RootLayout({ children }) {
             name="google-site-verification"
             content="jqEzwK7eoReqyfciSG7WRzX31u0fNzJIx7eje4cPhz8"
           />
-          <title>3A - AI Notes Taker</title>
+          <title>AI Notes Taker</title>
           <meta
             name="description"
-            content="AI Notes Taker: Efficiently capture and organize your notes with 3A. Enhance productivity with smart, AI-powered note-taking solutions. Try it now!"
+            content="Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!"
           />
           <meta
             name="keywords"
-            content="AI Notes Taker, note-taking, productivity, AI-powered solutions, 3A"
+            content="free notes maker, AI notes taker, note-taking app, free note-taking tool, AI-powered notes, productivity tools, online notes app, organize notes, AI note-taking solution, free productivity app, smart notes app
+"
           />
           <link
             rel="canonical"
@@ -62,9 +63,9 @@ export default function RootLayout({ children }) {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "WebPage",
-                name: "AI Notes Taker",
+                name: "Free AI Notes Maker - Capture, Organize & Boost Productivity",
                 description:
-                  "AI Notes Taker: Efficiently capture and organize your notes with 3A. Enhance productivity with smart, AI-powered note-taking solutions. Try it now!",
+                  "Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!",
                 url: "https://ainotestaker.netlify.app/",
               }),
             }}
