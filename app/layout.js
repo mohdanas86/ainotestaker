@@ -21,7 +21,7 @@ export const metadata = {
   keywords:
     "free notes maker, AI notes taker, note-taking app, free note-taking tool, AI-powered notes, productivity tools, online notes app, organize notes, AI note-taking solution, free productivity app, smart notes app",
   description:
-    "Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!",
+    "Discover Free AI Notes Maker - capture, organize, and manage notes easily. Boost productivity with smart, AI-powered features. Start for free now!",
   icons: {
     icon: "/favicon.ico",
   },
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
           <title>AI Notes Taker</title>
           <meta
             name="description"
-            content="Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!"
+            content="Discover Free AI Notes Maker - capture, organize, and manage notes easily. Boost productivity with smart, AI-powered features. Start for free now!"
           />
           <meta
             name="keywords"
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
                 "@type": "WebPage",
                 name: "Free AI Notes Maker - Capture, Organize & Boost Productivity",
                 description:
-                  "Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage your notes efficiently. Boost productivity with AI-powered, smart note-taking features. Start for free now!",
+                  "Discover Free AI Notes Maker - capture, organize, and manage notes easily. Boost productivity with smart, AI-powered features. Start for free now!",
                 url: "https://ainotestaker.netlify.app/",
               }),
             }}
