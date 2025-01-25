@@ -5,6 +5,11 @@ import ConvexClientProvider from "./ConvexClientProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
 import Head from "next/head";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+
+const router = useRouter();
+const siteUrl = "https://ainotestaker.netlify.app";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,22 +63,16 @@ export default function RootLayout({ children }) {
             content="Discover Free AI Notes Maker - the ultimate tool to capture, organize, and manage notes easily. Boost productivity with AI-powered features."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://yourwebsite.com/" />
-          <meta
-            property="og:image"
-            content="https://yourwebsite.com/images/og-image.jpg"
-          />
+          <meta property="og:url" content="https://ainotestaker.netlify.app/" />
+          <meta property="og:image" content="/ainoteslogo.png" />
           <meta
             property="og:image:alt"
             content="Screenshot of Free AI Notes Maker web application"
           />
           <meta property="og:site_name" content="AI Notes Maker" />
 
-          <link
-            rel="canonical"
-            href="https://ainotestaker.netlify.app"
-            key="canonical"
-          />
+          {/* <link rel="canonical" href="https://ainotestaker.netlify.app/" /> */}
+          <link rel="canonical" href={`${siteUrl}${router.asPath}`} />
 
           <link rel="icon" type="image/png" href="/favicon.ico" />
           <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
