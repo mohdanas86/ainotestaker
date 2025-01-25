@@ -5,8 +5,7 @@ import ConvexClientProvider from "./ConvexClientProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const router = useRouter();
 const siteUrl = "https://ainotestaker.netlify.app";
