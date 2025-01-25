@@ -4,6 +4,7 @@ Sitemap: https://ainotestaker.netlify.app/sitemap.xml
 User-agent: *
 
 Allow: /
+Allow: /about-us
 
 Disallow: /sign-in
 Disallow: /sign-up
