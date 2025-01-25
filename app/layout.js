@@ -5,9 +5,7 @@ import ConvexClientProvider from "./ConvexClientProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
 import Head from "next/head";
-import { useRouter } from "next/navigation";
 
-const router = useRouter();
 const siteUrl = "https://ainotestaker.netlify.app";
 
 const geistSans = Geist({
@@ -70,8 +68,8 @@ export default function RootLayout({ children }) {
           />
           <meta property="og:site_name" content="AI Notes Maker" />
 
-          {/* <link rel="canonical" href="https://ainotestaker.netlify.app/" /> */}
-          <link rel="canonical" href={`${siteUrl}${router.asPath}`} />
+          <link rel="canonical" href="https://ainotestaker.netlify.app/" />
+          {/* <link rel="canonical" href={`${siteUrl}${router.asPath}`} /> */}
 
           <link rel="icon" type="image/png" href="/favicon.ico" />
           <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
