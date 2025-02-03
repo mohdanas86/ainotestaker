@@ -142,6 +142,9 @@ export const metadata = {
     ],
     siteName: "AI Notes Maker",
   },
+  alternates: {
+    canonical: siteUrl,
+  },
   robots: "index, follow",
   // verification: {
   //   google: "jqEzwK7eoReqyfciSG7WRzX31u0fNzJIx7eje4cPhz8",
