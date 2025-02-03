@@ -9,6 +9,11 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
+export const metadata = {
+  title: "Sign In - AI Notes Maker",
+  robots: "noindex, nofollow", // ❌ Search engines won't index this page
+};
+
 const Dashboard = () => {
   const { user } = useUser();
   const router = useRouter();

@@ -9,6 +9,11 @@ import { api } from "@/convex/_generated/api";
 import TextEditor from "../_components/TextEditor";
 import { useUser } from "@clerk/nextjs";
 
+export const metadata = {
+  title: "Sign In - AI Notes Maker",
+  robots: "noindex, nofollow", // ❌ Search engines won't index this page
+};
+
 const WorkSpace = () => {
   const { user } = useUser();
   const { fileId } = useParams();
