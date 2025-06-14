@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Notes Taker — Summarize Anything Instantly
 
-## Getting Started
+> Use pdfs or upload notes — let AI do the rest.
 
-First, run the development server:
+Live : https://ainotestaker.netlify.app/
+
+## Overview
+AI Notes Taker is a productivity web app that uses AI to create clean, concise summaries from lectures, meetings, documents, or voice notes. Built using LangChain and Google GenAI, it helps users stay focused and organized.
+
+## Features
+- File Upload Support PDFs
+- AI Summarization with LangChain + Google GenAI
+- Export to PDF or Clipboard
+- Authentication with Clerk
+- Integrated Payments (Cashfree)
+- Fully Responsive Interface
+
+## Tech Stack
+
+| Layer        | Technologies                                                                 |
+|--------------|-------------------------------------------------------------------------------|
+| Frontend     | Next.js, React.js, TailwindCSS, Radix UI, Lucide Icons                       |
+| Backend/API  | Next.js API Routes, Convex, dotenv                                           |
+| AI Layer     | LangChain, Google Generative AI, OpenAI API (via LangChain modules)         |
+| Auth         | Clerk.dev                                                                    |
+| Database     | Convex                                                                      |
+| File Parsing | pdf-parse, html2pdf.js                                                       |
+| Payments     | Razorpay, PayPal JS SDK, Cashfree                                            |
+| Export       | html2pdf.js, Clipboard API                                                   |
+| Editor       | Tiptap (with extensions: bold, italic, underline, highlight, etc.)           |
+| Dev Tools    | ESLint, TailwindCSS, PostCSS                                                 |
+
+## Screenshots
+![Screenshot 2025-04-14 170725](https://github.com/user-attachments/assets/458f15a9-074a-4baf-9b3f-c2f93c5ff636)
+![Screenshot 2025-06-11 205055](https://github.com/user-attachments/assets/2abd57fa-71e7-4583-8b94-afb0ede1ea2c)
+![Screenshot 2025-06-11 205030](https://github.com/user-attachments/assets/a5483955-c0e9-4e50-bdab-3d8b6e00d0eb)
+
+
+## Installation
 
 ```bash
+git clone https://github.com/yourusername/ai-notes-taker.git
+cd ai-notes-taker
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
